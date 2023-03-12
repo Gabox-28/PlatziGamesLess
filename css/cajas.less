@@ -1,0 +1,27 @@
+.contenedor--cajas{
+  width: 1400px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.caja{
+  max-width: 430px;
+  .sobra-caja();
+  background-color: @morta-red;
+
+  &__contenido{
+    padding: 25px;
+  }
+
+  span{
+    color: @morta-red;
+    .oswald();
+  }
+
+  a{
+    text-decoration: none;
+    color: @bg-vrDark;
+    .oswald();
+  }
+}
